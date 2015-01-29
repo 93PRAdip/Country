@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainTableViewController : UIViewController
+@interface MainTableViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(strong,nonatomic) NSMutableArray *countries;
+@property(strong,nonatomic)IBOutlet UITableView *countryTableView;
+
 
 @end

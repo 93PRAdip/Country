@@ -21,6 +21,12 @@
 		322E1DBE1A7A476600CC4B57 /* CountriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E1DBD1A7A476600CC4B57 /* CountriesTests.m */; };
 		322E1DCA1A7A479300CC4B57 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E1DC81A7A479300CC4B57 /* MainTableViewController.m */; };
 		322E1DCB1A7A479300CC4B57 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */; };
+		322E1DCE1A7A4BDD00CC4B57 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E1DCD1A7A4BDD00CC4B57 /* Country.m */; };
+		322E1DD41A7A4F4700CC4B57 /* england.png in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DCF1A7A4F4700CC4B57 /* england.png */; };
+		322E1DD51A7A4F4700CC4B57 /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DD01A7A4F4700CC4B57 /* france.png */; };
+		322E1DD61A7A4F4700CC4B57 /* Scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DD11A7A4F4700CC4B57 /* Scotland.png */; };
+		322E1DD71A7A4F4700CC4B57 /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DD21A7A4F4700CC4B57 /* spain.png */; };
+		322E1DD81A7A4F4700CC4B57 /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DD31A7A4F4700CC4B57 /* usa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		322E1DC71A7A479300CC4B57 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		322E1DC81A7A479300CC4B57 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		322E1DCC1A7A4BDD00CC4B57 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		322E1DCD1A7A4BDD00CC4B57 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		322E1DCF1A7A4F4700CC4B57 /* england.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = england.png; sourceTree = "<group>"; };
+		322E1DD01A7A4F4700CC4B57 /* france.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = france.png; sourceTree = "<group>"; };
+		322E1DD11A7A4F4700CC4B57 /* Scotland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scotland.png; sourceTree = "<group>"; };
+		322E1DD21A7A4F4700CC4B57 /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
+		322E1DD31A7A4F4700CC4B57 /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +132,13 @@
 				322E1DC71A7A479300CC4B57 /* MainTableViewController.h */,
 				322E1DC81A7A479300CC4B57 /* MainTableViewController.m */,
 				322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */,
+				322E1DCC1A7A4BDD00CC4B57 /* Country.h */,
+				322E1DCD1A7A4BDD00CC4B57 /* Country.m */,
+				322E1DCF1A7A4F4700CC4B57 /* england.png */,
+				322E1DD01A7A4F4700CC4B57 /* france.png */,
+				322E1DD11A7A4F4700CC4B57 /* Scotland.png */,
+				322E1DD21A7A4F4700CC4B57 /* spain.png */,
+				322E1DD31A7A4F4700CC4B57 /* usa.png */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -227,9 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322E1DD51A7A4F4700CC4B57 /* france.png in Resources */,
+				322E1DD61A7A4F4700CC4B57 /* Scotland.png in Resources */,
 				322E1DA31A7A476600CC4B57 /* InfoPlist.strings in Resources */,
+				322E1DD81A7A4F4700CC4B57 /* usa.png in Resources */,
 				322E1DCB1A7A479300CC4B57 /* MainTableViewController.xib in Resources */,
 				322E1DAB1A7A476600CC4B57 /* Images.xcassets in Resources */,
+				322E1DD41A7A4F4700CC4B57 /* england.png in Resources */,
+				322E1DD71A7A4F4700CC4B57 /* spain.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322E1DCE1A7A4BDD00CC4B57 /* Country.m in Sources */,
 				322E1DA91A7A476600CC4B57 /* AppDelegate.m in Sources */,
 				322E1DA51A7A476600CC4B57 /* main.m in Sources */,
 				322E1DCA1A7A479300CC4B57 /* MainTableViewController.m in Sources */,
