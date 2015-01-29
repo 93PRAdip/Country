@@ -19,6 +19,8 @@
 		322E1DB41A7A476600CC4B57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322E1D9C1A7A476600CC4B57 /* UIKit.framework */; };
 		322E1DBC1A7A476600CC4B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DBA1A7A476600CC4B57 /* InfoPlist.strings */; };
 		322E1DBE1A7A476600CC4B57 /* CountriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E1DBD1A7A476600CC4B57 /* CountriesTests.m */; };
+		322E1DCA1A7A479300CC4B57 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E1DC81A7A479300CC4B57 /* MainTableViewController.m */; };
+		322E1DCB1A7A479300CC4B57 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		322E1DB91A7A476600CC4B57 /* CountriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountriesTests-Info.plist"; sourceTree = "<group>"; };
 		322E1DBB1A7A476600CC4B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		322E1DBD1A7A476600CC4B57 /* CountriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountriesTests.m; sourceTree = "<group>"; };
+		322E1DC71A7A479300CC4B57 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		322E1DC81A7A479300CC4B57 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				322E1DA81A7A476600CC4B57 /* AppDelegate.m */,
 				322E1DAA1A7A476600CC4B57 /* Images.xcassets */,
 				322E1D9F1A7A476600CC4B57 /* Supporting Files */,
+				322E1DC71A7A479300CC4B57 /* MainTableViewController.h */,
+				322E1DC81A7A479300CC4B57 /* MainTableViewController.m */,
+				322E1DC91A7A479300CC4B57 /* MainTableViewController.xib */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322E1DA31A7A476600CC4B57 /* InfoPlist.strings in Resources */,
+				322E1DCB1A7A479300CC4B57 /* MainTableViewController.xib in Resources */,
 				322E1DAB1A7A476600CC4B57 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			files = (
 				322E1DA91A7A476600CC4B57 /* AppDelegate.m in Sources */,
 				322E1DA51A7A476600CC4B57 /* main.m in Sources */,
+				322E1DCA1A7A479300CC4B57 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
